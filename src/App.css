@@ -27,6 +27,46 @@
   font-size: 25pt;
 }
 
+.employees{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  max-width: 700px;
+}
+
+.cardWrap{
+  flex: 1;
+  justify-content: center;
+}
+
+.contactCard{
+  position: relative;
+  width: 120px;
+  height: 180px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.contactCard img{
+  background-size: contain;
+  width: 70%;
+  margin-top: 10px;
+}
+.contactCard .empInfo{
+  color:#282c34;
+}
+
+.contactCard h3{
+  font-size: medium;
+  margin: 0px;
+}
+
+.contactCard h4{
+  font-size: small;
+  margin: 0px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
